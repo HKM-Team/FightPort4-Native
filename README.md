@@ -1,9 +1,27 @@
 # FightPort 4 Native (1.3.0) — EA SPORTS UFC 4 Ultra-Lightweight PC Port
 
+[![Discord](https://img.shields.io/badge/Discord-Comunidade%20Oficial-5865F2?logo=discord&logoColor=white)](https://discord.gg/sRCaE57yn)
 [![Version](https://img.shields.io/badge/Edition-Native%20(1.3.0)-blue.svg)](#)
 [![Team](https://img.shields.io/badge/Maintained%20by-HKM%20Team-blue.svg)](https://github.com/HKM-Team)
 [![License](https://img.shields.io/badge/License-GPL--2.0--or--later-green.svg)](licenses/LICENSE-GPL-2.0.txt)
 [![Footprint](https://img.shields.io/badge/Total%20Size-~90%20MB-brightgreen.svg)](#)
+
+> [!IMPORTANT]
+> ### 💬 Comunidade Oficial no Discord & Suporte aos Jogos
+> **Quer trocar uma ideia, saber mais sobre o projeto ou precisa de ajuda técnica com os executáveis?**  
+> Junte-se ao servidor oficial da **HKM Team** no Discord: **[https://discord.gg/sRCaE57yn](https://discord.gg/sRCaE57yn)**
+> 
+> ⚠️ **AVISO OBRIGATÓRIO — ARQUIVOS DO JOGO NÃO INCLUSOS:**  
+> **Ao baixar este inicializador (launcher), o jogo NÃO vem junto!** A pessoa precisa ter a sua própria cópia legítima do **EA SPORTS UFC 4** (Jogo Base v1.00 e Atualização Oficial 28.00 em formato `.pkg`). Este projeto é estritamente um inicializador de código aberto e não distribui arquivos protegidos por direitos autorais.  
+> **Dúvidas sobre como extrair ou configurar?** Entre no nosso Discord, nossa comunidade e suporte estão prontos para ajudar!
+
+> [!NOTE]
+> ### 💬 Official Discord Community & Support (English)
+> **Want to discuss the project, learn more, or need setup assistance?**  
+> Join our official Discord server: **[https://discord.gg/sRCaE57yn](https://discord.gg/sRCaE57yn)**  
+> ⚠️ **IMPORTANT NOTICE:** Downloading this launcher **DOES NOT include any copyrighted game files**. You must provide your own legally owned copy of EA SPORTS UFC 4 (Base Game v1.00 & Update v28.00 PKG). For questions regarding extraction or setup, visit our Discord!
+
+---
 
 Dedicated ultra-lightweight launcher and single-click PKG extraction system for the native PC port of **EA SPORTS UFC 4** (PlayStation 4, `CUSA14209` & `CUSA14204`, update **28.00**).
 
