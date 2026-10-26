@@ -1,0 +1,156 @@
+================================================================================
+FIGHTPORT 4 — EA SPORTS UFC 4 (PORT DIRETO PARA PC)
+Versão: 1.3.0
+================================================================================
+
+O FightPort 4 é o inicializador e gerenciador dedicado do port nativo de 
+EA SPORTS UFC 4 para computador, rodando via Vulkan com alto desempenho, 
+suporte nativo a controles e resolução escalável.
+
+--------------------------------------------------------------------------------
+1. COMO USAR (INÍCIO RÁPIDO)
+--------------------------------------------------------------------------------
+1. Abra o FightPort4.exe.
+2. Na aba CONFIGURAÇÕES, verifique se a pasta do jogo está selecionada em "Procurar" 
+   (normalmente já identificada automaticamente em games\UFC4).
+3. Ajuste as opções de VÍDEO e JOGABILIDADE do seu jeito (Resolução, FPS, Idioma, etc.).
+4. Clique em "SALVAR CONFIG." para gravar suas preferências no disco.
+5. Clique no botão "ÍCONE & ATALHO" para abrir o Seletor Visual de Ícones do executável:
+   • O programa exibirá uma galeria visual completa com 19 opções exclusivas de ícones.
+   • São 9 lutadores consagrados do UFC com 2 variações fotográficas cada:
+     - Alex Poatan
+     - Anderson Silva
+     - Charles do Bronx
+     - Conor McGregor
+     - Georges St-Pierre
+     - Islam Makhachev
+     - Jon Jones
+     - José Aldo
+     - Khabib Nurmagomedov
+     Além do ícone clássico: FightPort 4 (Logo Original).
+   • Cada lutador exibe suas duas variações de imagem lado a lado, com seu respectivo 
+     nome limpo e centralizado logo abaixo, sem repetições desnecessárias.
+   • Basta clicar em qualquer um dos ícones para selecioná-lo (ele ficará destacado com 
+     uma borda dourada e o selo de seleção).
+6. Criação do Atalho / Executável na Área de Trabalho:
+   • Para criar o atalho pela primeira vez, clique em "CRIAR ATALHO NO DESKTOP".
+   • O executável oficial do jogo ("UFC 4.lnk") será gerado diretamente na sua 
+     Área de Trabalho exibindo o ícone que você escolheu.
+7. Alteração do Ícone a qualquer momento:
+   • Se você já possui o atalho na Área de Trabalho e quiser trocar para outro lutador 
+     ou estilo, basta abrir o menu "ÍCONE & ATALHO", selecionar o novo ícone desejado 
+     e clicar no botão dourado "ALTERAR ÍCONE DO ATALHO".
+   • O Windows Explorer atualiza a Área de Trabalho instantaneamente com a nova imagem, 
+     sem necessidade de reiniciar o PC ou recriar o atalho manualmente.
+8. Pronto para Jogar:
+   • Dê dois cliques no atalho da Área de Trabalho para abrir o UFC 4 direto! O jogo 
+     iniciará imediatamente em tela cheia com todas as suas configurações personalizadas.
+   • Você só precisa abrir o inicializador FightPort4.exe novamente quando desejar alterar 
+     gráficos, resolução, idioma ou escolher outro ícone para o atalho.
+   • O botão "JOGAR" no programa continua sempre disponível para iniciar a partida na hora.
+
+--------------------------------------------------------------------------------
+2. HARDWARE DE REFERÊNCIA & DESEMPENHO REAL
+--------------------------------------------------------------------------------
+Este port foi testado, otimizado e aprovado na seguinte máquina de referência:
+
+  • Placa de Vídeo: NVIDIA GeForce RTX 5060 Ti (8 GB VRAM)
+  • Processador:    Intel Core i5-14600K
+  • Memória RAM:    32 GB DDR4 (3200 MHz)
+  • Armazenamento:  SSD NVMe
+  • Sistema:        Windows 10 / 11 (64-bit)
+
+DESEMPENHO:
+Com a configuração recomendada abaixo, o jogo roda 100% liso, variando entre 
+87 e 110 FPS constantes nas lutas, com excelente tempo de resposta e fluidez.
+
+SOBRE O STUTTERING INICIAL (COMPILAÇÃO DE SHADERS):
+Um leve stuttering (pequenos engasgos) acontece apenas nos primeiros minutos da 
+primeira execução ou na primeira vez em que novos lutadores, arenas e golpes 
+são carregados na tela. 
+Isso é TOTALMENTE NORMAL e esperado: acontece porque a placa de vídeo compila 
+os shaders do jogo em tempo real enquanto o jogo está rodando. Assim que os 
+shaders são compilados e salvos no cache de disco da GPU, o stuttering NÃO 
+ACONTECE MAIS e a jogabilidade fica completamente lisa e estável.
+
+--------------------------------------------------------------------------------
+3. CONFIGURAÇÃO RECOMENDADA NO PROGRAMA
+--------------------------------------------------------------------------------
+Para obter o melhor equilíbrio entre qualidade visual e 87-110 FPS:
+
+  [VÍDEO]
+  • Resolução de Renderização: 1920x1080 (Full HD)
+  • Resolução de Saída:        Igual ao jogo ou 1920x1080 (Full HD)
+  • Limite de FPS:             144 FPS (ou 120 FPS / Sem limite)
+  • Modo de Apresentação:      Mailbox (baixa latência sem tearing agressivo)
+  • Upscaler:                  FSR 1.0 (Nitidez: 2)
+  • Modo PS4 Pro (Neo):        Ligado (gráficos aprimorados e texturas HD)
+  • Tela Cheia:                Ligado
+  • Pular Vídeos de Entrada:   Ligado (entra direto no menu/luta)
+  • Modo Baixa Latência:       Desligado (ou ligado para monitores competitivos)
+
+  [JOGABILIDADE]
+  • Jogador:                   Seu apelido / Nickname
+  • Idioma do Jogo:            Português (Brasil) - ID 17
+  • Volume de Áudio:           100%
+  • Correção Facial (Skinning): Ativa automaticamente para evitar distorções
+
+--------------------------------------------------------------------------------
+4. VERSÕES DO JOGO (JOGO BASE vs. ATUALIZAÇÃO 28.00)
+--------------------------------------------------------------------------------
+O EA SPORTS UFC 4 possui diferentes versões de pacotes (PKG):
+
+  • Jogo Base v1.00 (ex: CUSA14209 v1.00):
+    É o arquivo base original do jogo. Ele contém os modelos 3D fundamentais, 
+    áudios e a estrutura principal das lutas.
+    
+  • Atualização / Patch v28.00 (ex: CUSA14209 v28.00):
+    É a atualização final oficial lançada para o jogo. Ela adiciona dezenas de 
+    lutadores novos ao elenco, atualiza rankings, aprimora a física de golpes e 
+    submissões, corrige bugs e oferece a melhor estabilidade para o port de PC.
+
+INSTALAÇÃO FÁCIL PELA ABA "EXTRAÇÃO DE PKG":
+O FightPort 4 possui um extrator nativo de arquivos PKG. Você não precisa usar 
+programas externos de terceiros:
+1. Abra a aba "EXTRAÇÃO DE PKG" no FightPort 4.
+2. Arraste ou selecione o PKG do Jogo Base e o PKG do Patch 28.00.
+3. O programa analisa o cabeçalho PARAM.SFO, confirma a integridade e exibe 
+   os dados de cada pacote.
+4. Clique em "Extrair para o Jogo": ele descompacta a Base e sobrepõe a 
+   Atualização 28.00 automaticamente na pasta games\UFC4.
+
+--------------------------------------------------------------------------------
+5. CONTROLES E SUPORTE A GAMEPAD
+--------------------------------------------------------------------------------
+O port possui reconhecimento automático de controles:
+  • Controles Xbox (One, Series S/X, 360) via XInput (Recomendado).
+  • Controles PlayStation (DualShock 4 e DualSense).
+  • Controles genéricos compatíveis com DirectInput / XInput.
+
+Dica: Conecte o controle no computador antes de iniciar a partida.
+
+--------------------------------------------------------------------------------
+6. JOGATINA ONLINE VIA PARSEC (1v1 LOCAL PELA INTERNET)
+--------------------------------------------------------------------------------
+Você pode jogar contra um amigo online através do Parsec:
+1. O Host (você) abre o FightPort 4 e ativa "Modo Parsec (host online)" em 
+   JOGABILIDADE (isso fixa 60 FPS e baixa latência).
+2. O Host abre o Parsec (parsec.app) e envia o link de convite para o amigo.
+3. O amigo entra pelo Parsec e o controle dele é reconhecido como Jogador 2.
+4. Para a menor latência possível, ambos devem usar conexão via cabo de rede (Ethernet).
+
+--------------------------------------------------------------------------------
+7. LOCAL DOS ARQUIVOS E SALVAMENTOS
+--------------------------------------------------------------------------------
+  • Configurações do FightPort 4: %LOCALAPPDATA%\FightPort4\fightport4.ini
+  • Galeria de Ícones (.ico e .png): Pasta src\icons\
+  • Saves e Configurações do Jogo: %LOCALAPPDATA%\UFC4Native\sacredfire.ini
+  • Relatórios e Logs:            %LOCALAPPDATA%\UFC4Native\logs\
+
+--------------------------------------------------------------------------------
+Avisos Legais:
+FightPort 4 é um projeto de código aberto sob licença GPL-2.0-or-later.
+Não possui afiliação com a Electronic Arts, UFC ou Sony Interactive Entertainment.
+Nenhum arquivo protegido por direitos autorais do jogo é distribuído com este launcher;
+o usuário deve fornecer sua própria cópia legítima do jogo.
+================================================================================

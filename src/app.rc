@@ -1,0 +1,34 @@
+#include <windows.h>
+1 ICON "icons\\app.ico"
+1 24 "app.manifest"
+101 RCDATA "png\\logo.png"
+102 RCDATA "png\\background_config.png"
+103 RCDATA "png\\background_extra.png"
+104 RCDATA "png\\splash_bg.png"
+105 RCDATA "png\\splash_fg.png"
+201 RCDATA "cs_0xb61e59a3b11b03ad_0.spv"
+202 RCDATA "cs_0xb61e59a384acbdea_0.spv"
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION 1,3,0,0
+PRODUCTVERSION 1,3,0,0
+FILEOS 0x40004
+FILETYPE 0x1
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "041604B0"
+    BEGIN
+      VALUE "CompanyName", "FightPort4"
+      VALUE "FileDescription", "FightPort 4 - PC Port: EA SPORTS UFC 4"
+      VALUE "FileVersion", "1.3.0"
+      VALUE "ProductName", "FightPort 4"
+      VALUE "ProductVersion", "1.3.0"
+      VALUE "OriginalFilename", "FightPort4.exe"
+      VALUE "LegalCopyright", "GPL-2.0-or-later. Sem afiliacao com a Electronic Arts, o UFC ou a Sony."
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x416, 1200
+  END
+END

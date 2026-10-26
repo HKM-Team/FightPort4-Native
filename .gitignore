@@ -1,0 +1,27 @@
+# ========================================================
+# FightPort 4 Native - Git Ignore (Blindagem HKM Team)
+# ========================================================
+
+# Logs e arquivos de depuração local
+*.log
+*.tmp
+*.bak
+*.cache
+*.pdb
+*.ilk
+*.suo
+
+# Ambientes de desenvolvimento e caches
+.vs/
+.idea/
+.vscode/
+__pycache__/
+*.pyc
+
+# Pacotes de release e scripts de instalação
+dist/
+*.zip
+*.7z
+*.rar
+*_Setup.exe
+fightport4_setup.iss

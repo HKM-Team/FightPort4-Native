@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ufc4: patches for EA SPORTS UFC 4 (CUSA14209, CUSA14204) 28.00, the native port's own fixes.
+     Addresses are PS4 virtual addresses (eboot base 0x400000), CUSA14209's; another executable
+     (CUSA14204) gets the write where the Signature matches (patches.py). -->
+<Patch>
+    <TitleID>
+        <ID>CUSA14209</ID>
+        <ID>CUSA14204</ID>
+    </TitleID>
+    <Metadata Title="EA SPORTS UFC 4"
+              Name="Offline network: skip UPnP (DirtySDK -noupnp)"
+              Note="NetConnStartup (0x13256b0) creates ProtoUpnp unless its parameters carry -noupnp. ProtoUpnp opens and binds a UDP socket; the offline runtime has no sockets, so the creation failed, NetConnStartup failed whole (-6) and the game later read the destroyed DirtyCM module (fault at 0x137cde4). This takes the -noupnp branch: UPnP is never used offline."
+              Author="ufc4 port"
+              PatchVer="1.0"
+              AppVer="28.00"
+              AppElf="eboot.bin"
+              isEnabled="true">
+        <PatchList>
+            <!-- strstr(params, "-noupnp"); test rax,rax; je create_upnp  ->  never jump (as if found) -->
+            <Line Type="bytes" Address="0x0172593b" Value="9090" Signature="48 85 C0 74 16 48 8B 7D B8 EB 29" SignatureOffset="3"/>
+        </PatchList>
+    </Metadata>
+</Patch>

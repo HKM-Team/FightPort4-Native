@@ -1,0 +1,10 @@
+FightPort 4 - PC Port: EA SPORTS UFC 4
+
+FightPort4.exe and the ports in games\ are free software under the GNU General Public License,
+version 2 or later (LICENSE-GPL-2.0.txt). Their source code is published with each release.
+
+The ports are built on SacredFire / bbport (GNSB) and shadPS4. Each port's own licenses folder
+(games\UFC<n>\licenses) lists the libraries it contains and their licenses.
+
+Not affiliated with Electronic Arts, the UFC or Sony. No game files are included: each port
+needs your own copy of the game.
