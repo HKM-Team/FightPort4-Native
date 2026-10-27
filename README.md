@@ -1,29 +1,105 @@
 # FightPort 4 Native (1.3.0) — EA SPORTS UFC 4 Ultra-Lightweight PC Port
 
 [![Discord](https://img.shields.io/badge/Discord-Comunidade%20Oficial-5865F2?logo=discord&logoColor=white)](https://discord.gg/sRCaE57yn)
-[![Version](https://img.shields.io/badge/Edition-Native%20(1.3.0)-blue.svg)](#)
-[![Team](https://img.shields.io/badge/Maintained%20by-HKM%20Team-blue.svg)](https://github.com/HKM-Team)
-[![License](https://img.shields.io/badge/License-GPL--2.0--or--later-green.svg)](licenses/LICENSE-GPL-2.0.txt)
-[![Footprint](https://img.shields.io/badge/Total%20Size-~90%20MB-brightgreen.svg)](#)
+[![Versão](https://img.shields.io/badge/Edi%C3%A7%C3%A3o-Native%20(1.3.0)-blue.svg)](#)
+[![Equipe](https://img.shields.io/badge/Mantido%20por-HKM%20Team-blue.svg)](https://github.com/HKM-Team)
+[![Licença](https://img.shields.io/badge/Licen%C3%A7a-GPL--2.0--or--later-green.svg)](licenses/LICENSE-GPL-2.0.txt)
+[![Tamanho](https://img.shields.io/badge/Tamanho%20Total-~90%20MB-brightgreen.svg)](#)
+
+Dedicated ultra-lightweight launcher and single-click PKG extraction system for the native PC port of **EA SPORTS UFC 4** (PlayStation 4, `CUSA14209` & `CUSA14204`, update **28.00**).
 
 > [!IMPORTANT]
 > ### 💬 Comunidade Oficial no Discord & Suporte aos Jogos
-> **Quer trocar uma ideia, saber mais sobre o projeto ou precisa de ajuda técnica com os executáveis?**  
-> Junte-se ao servidor oficial da **HKM Team** no Discord: **[https://discord.gg/sRCaE57yn](https://discord.gg/sRCaE57yn)**
-> 
+> **Quer tirar dúvidas, acompanhar atualizações do port ou precisa de ajuda técnica para executar o jogo?**
+>
+> 🎮 **Servidor Oficial da HKM Team no Discord:**  
+> 👉 [https://discord.gg/sRCaE57yn](https://discord.gg/sRCaE57yn)
+>
 > ⚠️ **AVISO OBRIGATÓRIO — ARQUIVOS DO JOGO NÃO INCLUSOS:**  
-> **Ao baixar este inicializador (launcher), o jogo NÃO vem junto!** A pessoa precisa ter a sua própria cópia legítima do **EA SPORTS UFC 4** (Jogo Base v1.00 e Atualização Oficial 28.00 em formato `.pkg`). Este projeto é estritamente um inicializador de código aberto e não distribui arquivos protegidos por direitos autorais.  
-> **Dúvidas sobre como extrair ou configurar?** Entre no nosso Discord, nossa comunidade e suporte estão prontos para ajudar!
-
-> [!NOTE]
-> ### 💬 Official Discord Community & Support (English)
-> **Want to discuss the project, learn more, or need setup assistance?**  
-> Join our official Discord server: **[https://discord.gg/sRCaE57yn](https://discord.gg/sRCaE57yn)**  
-> ⚠️ **IMPORTANT NOTICE:** Downloading this launcher **DOES NOT include any copyrighted game files**. You must provide your own legally owned copy of EA SPORTS UFC 4 (Base Game v1.00 & Update v28.00 PKG). For questions regarding extraction or setup, visit our Discord!
+> **Ao baixar este inicializador (launcher), o jogo NÃO vem junto!**  
+> Este projeto é de código aberto e **NÃO DISTRIBUI** jogos, ROMs, arquivos binários protegidos ou dados proprietários da Electronic Arts, UFC ou Sony. É **necessário possuir sua própria cópia legítima do EA SPORTS UFC 4** (Jogo Base v1.00 e Atualização Oficial 28.00 em formato `.pkg`).  
+> Se tiver qualquer dúvida sobre como extrair seus pacotes ou rodar o executável no seu computador, nossa equipe e comunidade estão prontas para te ajudar no Discord!
 
 ---
 
-Dedicated ultra-lightweight launcher and single-click PKG extraction system for the native PC port of **EA SPORTS UFC 4** (PlayStation 4, `CUSA14209` & `CUSA14204`, update **28.00**).
+## 🥊 Português (PT-BR)
+
+### Visão Geral
+O **FightPort 4 Native (1.3.0)** é a edição **ultra-leve** do FightPort, desenvolvida especificamente para garantir máxima fluidez, estabilidade e baixo consumo de memória em computadores modestos, notebooks e PCs de entrada ("PCs fracos").
+
+Operando 100% de forma nativa sob uma camada de tradução direta em **Vulkan puro** — sem o peso de motores de upscaling (FSR, XeSS, DLSS), sem geração artificial de quadros (Frame Gen) e sem inferência neural de DLSS 5 —, esta versão ocupa apenas **~90 MB no disco** e entrega combate rápido, responsivo e sem travamentos.
+
+---
+
+### 🖥️ Telas de Configurações e Extração
+
+O inicializador foi desenhado para ser direto, visual e intuitivo:
+
+#### 1. Configurações de Vídeo e Áudio
+Ajuste a resolução nativa de exibição, modo tela cheia, limite de quadros e volume com conversão estéreo 2.0 limpa:
+
+![Tela de Configurações Native](assets/screenshots/config_v1.png)
+
+#### 2. Extração Simplificada de PKG
+Instale seu jogo em botão único: selecione o Jogo Base (`v1.00`) e a Atualização (`v28.00`) juntos e deixe o programa fazer a descompactação e mesclagem automatizada diretamente para a pasta do jogo.
+
+![Extrator Nativo de PKG](assets/screenshots/ext_pkg_v1.png)
+
+---
+
+### 🎨 Galeria com 19 Ícones Exclusivos
+
+Crie seu atalho na Área de Trabalho com o rosto do seu lutador favorito:
+- 9 grandes campeões com 2 fotos de alta definição cada (Poatan, Charles, Jones, Anderson, Khabib, Aldo, McGregor, GSP e Makhachev).
+- Ícone clássico oficial da HKM Team.
+- Atualização imediata no Desktop do Windows Explorer via `SHChangeNotify`.
+
+![Seletor Visual de Ícones](assets/screenshots/icon_v1.png)
+
+---
+
+### 🥊 Demonstração de Jogabilidade (Vulkan Nativo)
+
+Ao dispensar camadas pesadas de pós-processamento e upscaling, o motor gráfico opera com física estável e resposta imediata aos comandos no controle:
+
+![Frame de Combate Nativo](assets/screenshots/native.png)
+
+---
+
+### 📦 Como Instalar e Jogar
+
+Você pode escolher entre duas formas de distribuição oficial:
+
+#### Opção A: Pacote Portátil (.zip)
+1. Baixe o pacote oficial na página de Releases:
+   📦 **`FightPort4_Native_1.3.0.zip`** (apenas ~56 MB compactado).
+2. Descompacte o arquivo `.zip` na pasta de sua escolha.
+3. Abra o **`FightPort4.exe`**.
+
+#### Opção B: Instalador Executável (.exe)
+1. Baixe o assistente oficial:
+   💿 **`FightPort4_Native_1.3.0_Setup.exe`** (apenas ~59 MB).
+2. Siga as instruções do assistente para instalar e criar os atalhos automáticos no Desktop e no Menu Iniciar.
+3. Abra direto pelo atalho da Área de Trabalho!
+
+#### Extração dos Arquivos do Jogo (Primeira Vez)
+1. Abra o **FightPort 4 Native** e acesse a aba **`EXTRAÇÃO DE PKG`**.
+2. Clique no botão **`PROCURAR...`** e selecione o Jogo Base (v1.00) e a Atualização (v28.00) juntos.
+3. Clique em **`Extrair para o Jogo`**.
+4. Clique em **`JOGAR`** e bom combate!
+
+---
+
+### 🎮 Controles & Parsec
+- Suporte Plug & Play a controles Xbox, PlayStation e genéricos via DirectInput/XInput.
+- Suporte a 2 jogadores simultâneos no mesmo PC.
+- Bloqueio em 60 FPS estáveis de baixa latência para partidas online 1v1 via Parsec.
+
+---
+
+### 📄 Licenças e Atribuições
+- **FightPort 4 Native UI & Core:** Tri-Licença HKM (MIT, Apache 2.0 e GPLv3).
+- **SacredFire / shadPS4 Core:** GNU GPL-2.0-or-later.
 
 ---
 
@@ -35,72 +111,20 @@ Operating 100% natively over pure **Vulkan** translation without the overhead of
 
 ### Key Highlights
 - **Ultra-Lightweight Footprint:** Entire port directory is under 95 MB (compared to 1.2 GB of standard upscaler editions).
-- **100% Pure Native Vulkan:** No wrapper injection latency, no external upscaler conflicts, perfect for low-end graphics cards.
-- **Visual Athlete Icon Selector:** 19 exclusive high-resolution desktop icons featuring 9 UFC legends (Poatan, Charles, Jon Jones, Khabib, Aldo, and more).
+- **100% Pure Native Vulkan:** No wrapper injection latency, no external upscaler conflicts, perfect for modest graphics hardware.
+- **Visual Athlete Icon Selector:** 19 exclusive high-resolution desktop icons featuring 9 UFC legends.
 - **Automated PKG Extractor:** One-click extraction and update merger from the `EXTRAÇÃO DE PKG` tab.
 
 ### How to Install & Run
-You can choose between two installation formats:
+- **Portable (.zip):** Download `FightPort4_Native_1.3.0.zip` from [Releases](https://github.com/HKM-Team/FightPort4-Native/releases), extract to any folder, and run `FightPort4.exe`.
+- **Installer (.exe):** Download `FightPort4_Native_1.3.0_Setup.exe` for an automated setup wizard with desktop shortcuts.
 
-#### Option A: Portable Archive (.zip)
-1. Download `FightPort4_Native_1.3.0.zip` from [Releases](https://github.com/HKM-Team).
-2. Extract the archive into your preferred directory (e.g., `D:\Games\FightPort4-Native`).
-3. Launch `FightPort4.exe`.
+### Feature & Attribution Matrix
+| Module | Author / Origin | License | Status |
+|---|---|---|---|
+| **FightPort 4 UI & Core** | **HKM Team** (https://github.com/HKM-Team) | Tri-License (MIT/Apache 2.0/GPLv3) | Stable v1.3.0 |
+| **PKG Extraction Engine** | **HKM Team** & OrbisPkgTool contributors | MIT / Open Source | Verified |
+| **UFC 4 Native Port Engine** | SacredFire / bbport / shadPS4 core | GNU GPL-2.0-or-later | Tested v0.2.6 |
 
-#### Option B: Executable Installer (.exe)
-1. Download `FightPort4_Native_1.3.0_Setup.exe` from [Releases](https://github.com/HKM-Team).
-2. Run the setup wizard, choose your installation path, and let it create the Desktop and Start Menu shortcuts automatically.
-3. Launch FightPort 4 Native directly from your desktop!
-
-#### Extracting Game Files (First Run)
-1. In the `EXTRAÇÃO DE PKG` tab, click **`PROCURAR...`**.
-2. Select your Base Game PKG (`v1.00`, `CUSA14209` or `CUSA14204`) and the official Update PKG (`v28.00`) together.
-3. Click **`Extrair para o Jogo`**. FightPort 4 unrolls and merges the files directly into `games\UFC4`.
-4. Click **`JOGAR`** and enjoy pure native gameplay!
-
----
-
-## 🥊 Português (PT-BR)
-
-### Visão Geral
-O **FightPort 4 Native (1.3.0)** é a edição **ultra-leve** do FightPort, desenvolvida sob medida para entregar máxima fluidez e baixo consumo de memória em PCs fracos ou configurações de entrada.
-Executando de forma 100% nativa sob a camada de tradução em **Vulkan puro**, sem o peso de motores de upscaling ou geração de quadros artificiais, esta versão ocupa apenas ~90 MB no disco e garante combate rápido e estável.
-
-### Principais Inovações
-- **Consumo Mínimo de Disco e Memória:** O projeto completo tem menos de 95 MB no total.
-- **Desempenho Puro e Sem Travamentos:** Sem injeções de DLLs pesadas de upscalers ou redes neurais; ideal para placas de vídeo integradas ou mais modestas compatíveis com Vulkan.
-- **Seletor Visual com 19 Ícones:** Escolha a foto do seu atleta favorito e aplique no atalho do seu Desktop com atualização instantânea no Windows Explorer.
-- **Extrator Nativo de PKG:** Descompacte o jogo base (v1.00) e a atualização oficial (v28.00) com apenas um clique.
-
-### Como Instalar e Jogar
-Você pode escolher entre duas formas de distribuição:
-
-#### Opção A: Pacote Portátil (.zip)
-1. Baixe o pacote `FightPort4_Native_1.3.0.zip` nas [Releases oficiais da HKM Team](https://github.com/HKM-Team).
-2. Descompacte o arquivo `.zip` na pasta de sua preferência.
-3. Execute o inicializador **`FightPort4.exe`**.
-
-#### Opção B: Instalador Executável (.exe)
-1. Baixe o assistente `FightPort4_Native_1.3.0_Setup.exe` nas [Releases oficiais da HKM Team](https://github.com/HKM-Team).
-2. Siga os passos na tela escolhendo o local de instalação. Ele criará os atalhos na Área de Trabalho e no Menu Iniciar automaticamente.
-3. Abra o jogo direto pelo atalho criado no Desktop!
-
----
-
-## 🛠️ Como Compilar o FightPort 4 Native
-O FightPort 4 é escrito em C puro com as APIs nativas do Win32 e GDI+:
-1. Abra o prompt do Visual Studio Developer (`vcvars64.bat`).
-2. Navegue até a pasta `src\`.
-3. Execute `build.bat`:
-   ```cmd
-   cd src
-   build.bat
-   ```
-4. O executável `FightPort4.exe` será gerado na raiz do projeto.
-
----
-
-## 📄 Licenças e Avisos Legais
-- **FightPort 4 UI & Core:** Licenciado sob a Tri-Licença HKM (MIT, Apache 2.0 e GPLv3).
-- **SacredFire / shadPS4:** Licenciados sob a GPL v2 ou posterior.
-- **Aviso:** Este projeto é um inicializador de código aberto e **não contém arquivos protegidos por direitos autorais do jogo**. O usuário deve fornecer seus próprios arquivos legítimos do EA SPORTS UFC 4. Sem qualquer vínculo ou endosso de Electronic Arts, Sony Interactive Entertainment ou UFC.
+### Legal Disclaimer
+FightPort 4 Native and HKM Team are independent open-source initiatives not affiliated with, endorsed by, or connected to Electronic Arts Inc., Sony Interactive Entertainment Inc., or the Ultimate Fighting Championship (UFC). No copyrighted game files or ROMs are distributed.
