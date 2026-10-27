@@ -1,6 +1,6 @@
 # FightPort 4 Native (1.3.0) — EA SPORTS UFC 4 Ultra-Lightweight PC Port
 
-[![Discord](https://img.shields.io/badge/Discord-Comunidade%20Oficial-5865F2?logo=discord&logoColor=white)](https://discord.gg/sRCaE57yn)
+[![Discord](https://img.shields.io/badge/Discord-Comunidade%20Oficial-5865F2?logo=discord&logoColor=white)](https://discord.gg/WMjRCmD9eF)
 [![Versão](https://img.shields.io/badge/Edi%C3%A7%C3%A3o-Native%20(1.3.0)-blue.svg)](#)
 [![Equipe](https://img.shields.io/badge/Mantido%20por-HKM%20Team-blue.svg)](https://github.com/HKM-Team)
 [![Licença](https://img.shields.io/badge/Licen%C3%A7a-GPL--2.0--or--later-green.svg)](licenses/LICENSE-GPL-2.0.txt)
@@ -13,7 +13,7 @@ Dedicated ultra-lightweight launcher and single-click PKG extraction system for 
 > **Quer tirar dúvidas, acompanhar atualizações do port ou precisa de ajuda técnica para executar o jogo?**
 >
 > 🎮 **Servidor Oficial da HKM Team no Discord:**  
-> 👉 [https://discord.gg/sRCaE57yn](https://discord.gg/sRCaE57yn)
+> 👉 [https://discord.gg/WMjRCmD9eF](https://discord.gg/WMjRCmD9eF)
 >
 > ⚠️ **AVISO OBRIGATÓRIO — ARQUIVOS DO JOGO NÃO INCLUSOS:**  
 > **Ao baixar este inicializador (launcher), o jogo NÃO vem junto!**  
